@@ -10,7 +10,7 @@ David B. Knoester (dk@msu.edu)
 
 ------------------------------------------------------------------------------------------
 
-RUNNING IPYTHON NOTEBOOK
+#RUNNING IPYTHON NOTEBOOK
 
 To run our IPython Notebook, you must first download the required packages:
 
@@ -38,7 +38,7 @@ This will open up the IPython Notebook terminal. Select the notebook labeled "Pr
 
 ------------------------------------------------------------------------------------------
 
-DIRECTORY LABELS
+#DIRECTORY LABELS
 
 Each experiment has its own directory. `kd` and the number following it represents the predator handling time, while `np` and the number following it represents the number of predators in the experiment. The directory names are as follows:
 
@@ -60,7 +60,7 @@ Each experiment has its own directory. `kd` and the number following it represen
 
 ------------------------------------------------------------------------------------------
 
-CSV FILE FORMAT
+#CSV FILE FORMAT
 
 Each csv file is one replicate for that experiment. The number following the word "run" in the csv file name is the random number generator seed for that replicate. e.g., run24LOD.csv has a random number generator seed of 24.
 
@@ -92,7 +92,7 @@ In the LOD files, there will be a single entry for each ancestor in the final be
 
 ------------------------------------------------------------------------------------------
 
-OTHER FILES
+#OTHER FILES
 
 Some directories, such as swarm-sd30-selfish-herd-rand-starting-pos-swarmsize100-np4-kd10, also have .genome and .dot files.
 
